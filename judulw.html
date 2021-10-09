@@ -1,0 +1,109 @@
+<!--
+Judul 
+-->
+<!DOCTYPE html>
+
+<head>
+<title>Untitled Document</title>
+
+<style type="text/css">
+	body {
+			background-image: url(https://lostinanime.com/wp-content/uploads/2016/10/Haikyuu-3-01-20.jpg);
+			background-size: cover;
+			width: 1000px;
+			margin: auto;
+		}
+
+  p {
+
+    font-family: karla;
+
+  }
+
+
+
+</style>
+</head>
+<?
+include("pengaman.php");
+?>
+<body>
+<table width="100%" border="0" bgcolor="#DCDCDD">
+  <tr>
+    <td width="18%" rowspan="2" bgcolor="#C5C3C6"><div align="center"><img src="https://static.wikia.nocookie.net/haikyuu/images/4/44/ShiratorizawaBanner.png/revision/latest/scale-to-width-down/180?cb=20151115041905" width="161" height="72" align="middle"></div></td>
+    <td colspan="7" bgcolor="#C5C3C6"><br><div align="center"><font color="#000000" size="6"
+     face="arial">Shiratorizawa Academy<br>
+    </font><font color="#000000" size="3" face="arial">
+    Sendai, Miyagi Prefecture</font></div><br></td>
+    <td width="18%" rowspan="2" bgcolor="#C5C3C6"><div align="center"><img src="https://static.wikia.nocookie.net/haikyuu/images/4/44/ShiratorizawaBanner.png/revision/latest/scale-to-width-down/180?cb=20151115041905" width="161" height="72" align="middle"></div></td>
+  </tr>
+  <tr>
+    
+
+        <td width="16%"><div align="right"><img src="gambar6.gif" width="23%" height="50"></div></td>
+    <td width="20%">
+              <table width="100%" border="0" bgcolor="#C5C3C6">
+                <tr>
+                  <td height="22"><div align="center"><span id="liveclock"></span><script language="JavaScript">
+
+
+ <!--
+
+/*
+Upper Corner Live clock script credit: JavaScript Kit (www.javascriptkit.com)
+More free scripts here!
+*/
+
+function show5(){
+if (!document.layers&&!document.all&&!document.getElementById)
+return
+
+ var Digital=new Date()
+ var hours=Digital.getHours()
+ var minutes=Digital.getMinutes()
+ var seconds=Digital.getSeconds()
+
+var dn="PM"
+if (hours<12)
+dn="AM"
+if (hours>12)
+hours=hours-12
+if (hours==0)
+hours=12
+
+ if (minutes<=9)
+ minutes="0"+minutes
+ if (seconds<=9)
+ seconds="0"+seconds
+//change font size here to your desire
+myclock="<font size='3' face='Arial' color='black'><b>"+hours+":"+minutes+":"
+ +seconds+" "+dn+"</b></font>"
+if (document.layers){
+document.layers.liveclock.document.write(myclock)
+document.layers.liveclock.document.close()
+}
+else if (document.all)
+liveclock.innerHTML=myclock
+else if (document.getElementById)
+document.getElementById("liveclock").innerHTML=myclock
+setTimeout("show5()",1000)
+ }
+
+
+window.onload=show5
+ //-->
+            </script></td>
+                </tr>
+
+        </table>
+    </td>
+
+        <td width="16%"><div align="left"><img src="gambar6.gif" width="23%" height="50"></div></td>
+
+  </tr>
+
+
+</table>
+
+</body>
+</html>
