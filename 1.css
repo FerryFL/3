@@ -167,7 +167,7 @@ img {
 		height: 620px;
 	}
 	.container {
-		height: 2000px;
+		height: 2300px;
 	}
 	.baris2 {
 		transform: translateY(230px);
@@ -185,9 +185,7 @@ img {
 	
 		height: 650px;
 	}
-	.container {
-		height: 2300px;
-	}
+
 	.gambar .thumb {
 		width: 110px;
 		height: 110px;
