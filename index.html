@@ -1,21 +1,97 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
-	<style type="text/css">
-		
 
-	</style>
+	<title>Document</title>
+<link rel="stylesheet" type="text/css" href="1.css">
+
 
 </head>
 
 
+<body>
+	
+	<div class="bg"></div>
 
-<frameset frameborder="no" framespacing="0" rows="20%,*" cols="*">
-<frame src="judulw.html" scrolling="no">
-<frameset border="0" cols="22%,*">
-<frame src="kiriw.html"  name="leftFrame" scrolling="auto" target="main" frameborder="no">
-<frame src="utamaw.html" name="menu" scrolling="auto" frameborder="no">
-</frameset>
-</frameset>
-<noframes></noframes>
+	<div class="container">
+
+		<div class="judul">
+			<br>
+		<h1>Profile</h1>
+		<h2>Sana - Twice</h2>
+		</div>
+
+		<div class="konten">
+			<div class="baris1">
+				<div class="gambar">
+
+				<div class="img1">
+					<img src="img/sana1.jpeg" class="jumbo">
+					<div class="thumbnail">
+						<img src="img/sana1.jpeg" class="thumb">
+						<img src="img/sana2.jpeg" class="thumb">
+						<img src="img/sana3.jpeg" class="thumb">
+						<img src="img/sana4.jpeg" class="thumb">
+						<img src="img/sana5.jpeg" class="thumb">
+						<img src="img/sana6.jpeg" class="thumb">
+
+
+					</div>
+				</div>
+					
+				</div>
+
+			</div>
+
+			<div class="baris2">
+				<br>
+				<h1>Minatozaki Sana</h1>
+				<br>
+				<div class="tentang">
+					<h2>About</h2><br>
+					<p>Stage Name: Sana (사나) <br>
+					- Birth Name: Minatozaki Sana (湊崎 紗夏) <br>
+					- Nationality: Japanese<br>
+					- Position: Sub Vocalist<br>
+					- Birthday: December 29, 1996<br>
+					- Zodiac Sign: Capricorn<br>
+					- Official Height: 168 cm (5’6″) / Approx. Real Height: 163 cm (5’4″)<br>
+					- Weight: 47 kg (104 lbs)<br>
+					- Blood Type: B<br>
+					- MBTI Type: ENFP-T<br>
+					</p>
+					</div>
+
+				<div class="isi">
+					<p>Sana was born on December 29, 1996 in Tennoji-ku, Osaka, Japan, she is the only child of her parents.<br><br>
+
+						Sana attended EXPG (Exile Professional Gym) Osaka branch, a dance and vocal studio where many Japanese idols trained, including some members of E-girls, Generations and The Rampage, from 2009 to early 2012. She first got interested in K-pop because of Girls' Generation's and KARA's rising popularity in Japan. At age 14, in her last year of middle school, she was scouted by JYP Entertainment while shopping with friends at the Osaka Namba Walk, a popular underground shopping mall. The JYPE scouts invited Sana to the 2011 JYP Japan Audition which were held in Osaka (19/11/2011) and Tokyo (25/11/2011). During the audition Sana performed the 'Mr. Taxi' choreography by Girls' Generation. After graduating from middle school in March 2012, she moved to South Korea to start her JYP trainee-ship on April 13 2012 together with TWICE's Momo.<br><br>
+
+						In 2014, she appeared in the music video of Got7's "A" and Junho's "Feel", making her noticeable and likeable by the public eye.<br><br>
+
+						In 2015, Sana was a contestant on the TV Show Sixteen, she was one of sixteen female trainees in JYP Entertainment, who had to compete in singing, dancing and modelling, in order to become a member of JYP's upcoming girl group. At the end of the show, she was announced as a member of Twice..</p>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+<script type="text/javascript">
+	
+	const gambar = document.querySelector('.gambar');
+	const jumbo = document.querySelector('.jumbo');
+
+	gambar.addEventListener('click', function(e){
+
+		if (e.target.className=='thumb') {
+			jumbo.src = e.target.src; 
+		}
+
+	});
+
+</script>
+
+</body>
 </html>

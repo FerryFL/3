@@ -1,0 +1,280 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martel&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	box-sizing: border-box;
+	font-family: 'Martel', serif;
+}
+
+.bg {
+	background: rgb(166,224,250);
+	background: linear-gradient(324deg, rgba(166,224,250,1) 0%, rgba(213,178,244,1) 55%, rgba(255,179,233,1) 100%);
+ 	width:100%;
+ 	height: 100%;
+ 	top: 0;
+ 	left: 0;
+ 	right: 0;
+ 	bottom: 0;
+ 	background-size: cover;
+ 	position: fixed;
+ 	z-index: -1;
+}
+
+.container {
+	width: 90%;
+	height: 2200px;
+	/*background-color: white;*/
+	margin: auto;
+	margin-top: 4%;
+	box-shadow: 0px 0px 5px 4px #e76ae4;
+
+}
+
+.judul {
+	padding: 15px 0;
+	/*background-color: salmon;*/
+	width: 80%;
+	margin: auto;
+	line-height: 50px;
+	font-weight: bold;
+}
+.judul h1,h2 {
+	text-align: center;
+}
+
+.judul h1 {
+	font-size: 40px;
+
+}
+
+.judul h2 {
+	font-size: 30px;
+}
+
+.konten {
+	padding-top: 20px;
+	/*background-color: #ddd;*/
+	margin: auto;
+	width: 90%;
+	height: 90%;
+
+
+}
+
+.baris1 {
+	width: 90%;
+	height: 500px;
+	/*background-color: #eee;*/
+	margin: auto;
+	position: relative;
+
+}
+
+.gambar {
+	width: 90%;
+	height: 2000px;
+	margin: auto;
+	text-align: center;
+	/*background-color: grey;*/
+	position: relative;
+}
+
+.thumb {
+	width: 150px;
+	height: 150px;
+}
+
+.thumb:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.img1 {
+	width: 90%;
+	height: 1000px;
+	margin: auto;
+	text-align: center;
+}
+
+img {
+	width: 500px;
+	height: 500px;
+	line-height: 0;
+}
+
+.baris2 {
+	/*background-color: #eee;*/
+	width: 90%;
+	height: 800px;
+	margin: 10px auto;
+	transform: translateY(150px);
+
+}
+
+.baris2 h1 {
+	font-size: 40px;
+	text-align: center;
+}
+
+.tentang {
+	/*background-color: white;*/
+	padding: 20px;
+	width:50%;
+	height: 400px;
+	margin: 0 auto 30px auto;
+	text-align: center;
+	box-shadow: 0px 0px 5px 4px #e76ae4;
+}
+
+.isi {
+	width: 90%;
+	padding: 40px;
+	height: 500px;
+	margin: auto;
+	/*background-color: cyan;*/
+	box-shadow: 0px 0px 5px 4px #e76ae4;
+
+}
+
+@media(max-width: 1800px ){
+	.isi {
+		width: 100%;
+		height: 500px;
+	}
+
+	.gambar .thumb {
+		width: 120px;
+		height: 120px;
+	}
+
+		.baris2 {
+		transform: translateY(150px);
+	}
+	
+
+}
+
+
+@media(max-width: 1300px ){
+	.isi {
+		height: 620px;
+	}
+	.container {
+		height: 2000px;
+	}
+	.baris2 {
+		transform: translateY(230px);
+
+	}
+	
+	}
+
+@media(max-width: 1150px ){
+	.tentang {
+		width: 70%;
+		height: 450px;
+	}
+	.isi {
+	
+		height: 650px;
+	}
+	.container {
+		height: 2300px;
+	}
+	.gambar .thumb {
+		width: 110px;
+		height: 110px;
+	}
+	
+}
+
+@media(max-width: 1050px ){
+	.tentang {
+		height: 450px;
+	}
+
+	.isi {
+		height: 800px;
+	}
+	.container {
+		height: 2500px;
+	}
+
+
+}
+
+@media(max-width : 850px ) {
+	.isi {
+		height: 900px;
+	}
+	.container {
+		height: 2800px;
+	}
+	.gambar .thumb {
+		width: 90px;
+		height: 90px;
+	}
+	.baris2 {
+		transform: translateY(180px);
+
+	}
+
+
+}
+
+
+@media(max-width : 750px ) {
+	.isi {
+		height: 1120px;
+	}
+	.img1 img {
+		width: 350px;
+		height: 350px;
+	}
+	.baris1 {
+		height: 400px;
+	}
+
+}
+
+@media(max-width : 580px ) {
+		
+	.tentang {
+		width: 90%;
+	}
+
+	.isi {
+		height: 1300px;
+	}
+	.img1 img {
+		width: 300px;
+		height: 300px;
+
+	}
+	.baris1 {
+		height: 300px;
+	}
+	.gambar .thumb {
+		width: 75px;
+		height: 75px;
+	}
+
+}
+
+@media(max-width : 500px) {
+	.isi {
+		height: 1450px;
+	}
+	.baris2 {
+		transform: translateY(180px);
+
+	}
+
+}
